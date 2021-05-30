@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:App/App.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Modules">
+      <FileRef
+         location = "group:Modules/UserProfile/UserProfile.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Modules/Chat/Chat.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Common">
+      <FileRef
+         location = "group:Common/Dependencies/Dependencies.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Common/Service/Service.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Common/Utils/Utils.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
